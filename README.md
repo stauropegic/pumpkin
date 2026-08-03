@@ -9,10 +9,11 @@ J    _  """  _    F
  \   \\/\_/\//   /
   "-._\/\_/\/_,-"
       """""""
-```
+
 # Pumpkin
 
-## Carving out your router!
+Carving out your router!
 
-### https://pumpkin.lat  /  https://discord.gg/
+https://pumpkin.lat  \\  https://discord.gg/
+```
 </div>
