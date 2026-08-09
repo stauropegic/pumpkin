@@ -6,6 +6,8 @@
 
 : https://pumpkin.lat  
 
-: https://discord.gg/
+: https://t.me/pumpkinlat
+
+: https://discord.gg/Y9sNKGJ2U6
 
 </div>
