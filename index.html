@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carving out your router.">
+    <meta name="author" content="0, Rest, Zosua">
+    <meta name="theme-color" content="#ff7b00">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="pumpkin.lat">
+    <meta property="og:title" content="Pumpkin © 2026">
+    <meta property="og:description" content="Carving out your router.">
+    <meta property="og:url" content="https://pumpkin.lat">
+    <meta name="keywords" content="bot, pumpkin, l4, l7, api, rest, 0, zosua, discord, udp, tcp, http, server, c2, flooder, ddos">
+    <title>Pumpkin - © 2026</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="api.css">
+</head>
+<body>
+<nav class="navbar">
+    <a class="logo" href="/">
+        <h2>Pumpkin</h2>
+    </a>
+    <div class="links">
+        <a href="/#tos">Tos</a>
+        <a href="/#plans">Plans</a>
+        <a href="/#contact">Contact</a>
+        <a href="/#privacy">Privacy</a>
+        <a href="/#credits">Credits</a>
+        <a href="https://github.com/stauropegic/pumpkin" target="_blank"  rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 .297a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.74.08-.74 1.2.08 1.84 1.24 1.84 1.24 1.08 1.84 2.82 1.31 3.5 1 .11-.79.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.94 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.63-5.48 5.93.43.37.82 1.1.82 2.22v3.29c0 .32.22.69.82.58A12 12 0 0 0 12 .297z"/>
+            </svg>
+        </a>
+        <a href="https://discord.gg/Y9sNKGJ2U6" target="_blank"  rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                 viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.317 4.369A19.79 19.79 0 0 0 15.369 3l-.214.43a18.27 18.27 0 0 1 4.36 1.335 13.9 13.9 0 0 0-4.167-1.294 13.7 13.7 0 0 0-6.696 0A13.9 13.9 0 0 0 4.485 4.77 18.27 18.27 0 0 1 8.845 3.43L8.631 3A19.79 19.79 0 0 0 3.683 4.369C.533 9.094-.317 13.701.108 18.242A19.94 19.94 0 0 0 6.13 21.3l1.287-1.756a12.96 12.96 0 0 1-2.03-.97l.484-.36c3.917 1.84 8.166 1.84 12.037 0l.484.36a12.96 12.96 0 0 1-2.03.97L17.87 21.3a19.94 19.94 0 0 0 6.022-3.058c.498-5.267-.85-9.832-3.575-13.873ZM8.02 15.331c-1.182 0-2.152-1.085-2.152-2.419 0-1.335.95-2.42 2.152-2.42 1.21 0 2.171 1.094 2.152 2.42 0 1.334-.95 2.419-2.152 2.419Zm7.96 0c-1.183 0-2.152-1.085-2.152-2.419 0-1.335.95-2.42 2.152-2.42 1.21 0 2.171 1.094 2.152 2.42 0 1.334-.942 2.419-2.152 2.419Z"/>
+            </svg>
+        </a>
+    </div>
+</nav>
+<section id="" class="hero">
+    <div>
+        <h1>Pumpkin</h1>
+        <p>
+            Carving out your router.
+        </p>
+        <div class="status-box">
+            5 Plans,  16 Methods,  <span id="status-dot" class="status-dot"></span>
+            <span id="status">Status: Fetching Status from API...</span>
+        </div>
+    </div>
+</section>
+<section id="tos" class="container">
+    <h2>
+        Terms of Service
+    </h2>
+    <p>
+        Authorized testing only: targets you own or have documented written permission to test.
+    </p>
+    <p>
+        No refunds. Prohibited targets: .gov, .edu, .mil (immediate ban).
+    </p>
+    <p>
+        Users are responsible for their actions. We are not liable.
+    </p>
+    <p>
+        No staff disrespect, account sharing, or actions against the platform.
+    </p>
+</section>
+<section id="plans" class="container">
+        <h2>
+            Plans
+        </h2>
+        <h5>
+            Payment methods include: Bitcoin, Ethereum, and Solana, through Exodus.
+        </h5>
+    <div class="grid">
+        <div class="card">
+            <h3>
+                Basic
+            </h3>
+            <p>
+                40 Seconds, 1 Con - 2 Minute Cooldown | TCP and UDP only
+            </p>
+            <span>
+                $4 USD - Monthly
+            </span>
+        </div>
+        <div class="card">
+            <h3>
+                Standard
+            </h3>
+            <p>
+                60 Seconds, 1 Con - 50 Second Cooldown
+            </p>
+            <span>
+                $17 USD - Monthly
+            </span>
+        </div>
+        <div class="card">
+            <h3>
+                VIP - 1 Access
+            </h3>
+            <p>
+                180 Seconds, 2 Con - 30 Second Cooldown
+            </p>
+            <span>
+                $60 USD - Monthly
+            </span>
+        </div>
+        <div class="card">
+            <h3>
+                VIP - 2 Access
+            </h3>
+            <p>
+                200 Seconds, 2 Con - 15 Second Cooldown + all methods
+            </p>
+            <span>
+                $100 USD - Monthly
+            </span>
+        </div>
+        <div class="card">
+            <h3>
+                VIP - 3 Access
+            </h3>
+            <p>
+                300 Seconds, 3 Con - 0 Second Cooldown + All methods
+            </p>
+            <span>
+                $125 USD - Monthly
+            </span>
+        </div>
+        <!--
+        <div class="card">
+            <h3>
+                Addons
+            </h3>
+            <p>
+                +1 Concurrent Slot - $25 USD
+            </p>
+            <p>
+                +30 Seconds extra time - $10 USD
+            </p>
+            <p>
+                -5 Seconds Cooldown - $5 USD
+            </p>
+        </div>
+        -->
+        <div class="card">
+            <h3>
+                And More!
+            </h3>
+            <p>
+                Join the discord to see all products and prices!
+            </p>
+        </div>
+    </div>
+</section>
+<section id="contact" class="container">
+    <h2>
+        Contact us
+    </h2>
+    <div class="grid">
+        <div class="card">
+            <h3>
+                Discord Server
+            </h3>
+            <p>
+                <a href="https://discord.gg/Y9sNKGJ2U6" target="_blank" rel="noopener noreferrer">
+                    discord.gg/Y9sNKGJ2U6
+                </a>
+            </p>
+        </div>
+        <div class="card">
+            <h3>
+                Telegram Channel
+            </h3>
+            <p>
+                <a href="https://t.me/pumpkinlat" target="_blank" rel="noopener noreferrer">
+                    t.me/pumpkinlat
+                </a>
+            </p>
+        </div>
+        <div class="card">
+            <h3>
+                Telegram Group
+            </h3>
+            <p>
+                <a href="https://t.me/pumpkinlat_chat" target="_blank" rel="noopener noreferrer">
+                    t.me/pumpkinlat_chat
+                </a>
+            </p>
+        </div>
+    </div>
+</section>
+<section id="privacy" class="container">
+    <h2>
+        Privacy
+    </h2>
+    <div class="grid">
+        <div class="card">
+            <h3>
+                Short telemetry retention
+            </h3>
+            <p>
+                All telemetry is automatically purged within a short retention window.
+            </p>
+
+            <h3>
+                Minimal data collection
+            </h3>
+            <p>
+                We keep all data minimal by design.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- Credits -->
+<section id="credits" class="container">
+    <h2>Credits</h2>
+    <div class="grid">
+        <div class="card credit-card">
+            <img src="assets/ff1b0a4677fbbd89c8b43c03b7447584.webp" alt="Haze" class="pfp">
+            <div class="credit-info">
+                <h3>0</h3>
+                <p>Backend and frontend Developer, Owner</p>
+            </div>
+        </div>
+        <div class="card credit-card">
+            <img src="assets/wgbeuagbfwfbwfkbwf62378481hng5.jpg" alt="Rest" class="pfp">
+
+            <div class="credit-info">
+                <h3>Rest</h3>
+                <p>Web Designer, and Admin</p>
+            </div>
+        </div>
+        <div class="card credit-card">
+            <img src="assets/1019ea14fdb850d9d210646f33bc85fd.webp" alt="Rest" class="pfp">
+
+            <div class="credit-info">
+                <h3>Zosua</h3>
+                <p>Frontend Developer and Admin</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="donate" class="container">
+    <h2>Donations</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>
+                Keeping this running isn't easy, so any support is appreciated!
+            </h3>
+            <div class="wallet">
+                <span>BTC</span>
+                <div class="address-box">
+                    <code id="btc">
+                        bc1qkluncjxpcl9nwxg0rxeafemse5mlsglvlulq2r
+                    </code>
+                    <button onclick="copyAddress('btc', this)">Copy</button>
+                </div>
+            </div>
+            <div class="wallet">
+                <span>ETH</span>
+                <div class="address-box">
+                    <code id="eth">
+                        0xb7e4b3761301027Be5e9A117cA60599b0beB0bD9
+                   </code>
+                   <button onclick="copyAddress('eth', this)">Copy</button>
+               </div>
+            </div>
+            <div class="wallet">
+                <span>SOL</span>
+                <div class="address-box">
+                    <code id="sol">
+                        BGWLNctbhmyw89YU2iJnPmPhssvf4mBxwKDxpauPzora
+                   </code>
+                   <button onclick="copyAddress('sol', this)">Copy</button>
+               </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <p>
+        Pumpkin © 2026 • Built by the community
+    </p>
+</footer>
+
+
+
+
+
+
+<!-- Animated Title -->
+<script>
+const introTitle = "Made by Rest";
+const finalTitle = "Pumpkin  ©  2026";
+const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*";
+document.title = introTitle;
+setTimeout(() => {
+    let iteration = 0;
+    const interval = setInterval(() => {
+        document.title = finalTitle
+            .split("")
+            .map((char, index) => {
+                if (char === " ") return " ";
+                if (index < iteration) return char;
+                return chars[Math.floor(Math.random() * chars.length)];
+            })
+            .join("");
+        iteration += 1 / 3;
+        if (iteration >= finalTitle.length) {
+            document.title = finalTitle;
+            clearInterval(interval);
+        }
+    }, 40);
+}, 2000);
+</script>
+<!-- Cloudflare Web Analytics -->
+ <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f2eb1c89a6c14f19b73bd5648d628b46"}'></script>
+<!-- Pumpkin API Status -->
+<script>
+async function checkStatus() {
+    const text = document.getElementById("status");
+    try {
+        const res = await fetch("https://a.pumpkin.lat/status", {
+            cache: "no-store"
+        });
+        if (!res.ok) {
+            throw new Error(`HTTP ${res.status}`);
+        }
+        text.textContent = "Status: Active";
+    } catch (error) {
+        console.error("[!] Error with Status:", error);
+        text.textContent = "Status: Offline";
+    }
+}
+checkStatus();
+setInterval(checkStatus, 30000);
+</script>
+<!-- Copy Button -->
+<script>
+function copyAddress(id, button) {
+    const address = document.getElementById(id).textContent.trim();
+    // fallback
+    const textarea = document.createElement("textarea");
+    textarea.value = address;
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+    button.textContent = "Copied!";
+    setTimeout(() => {
+        button.textContent = "Copy";
+    }, 1500);
+}
+</script>
+</body>
