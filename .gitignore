@@ -1,18 +1,100 @@
-# This .gitignore is appropriate for repositories deployed to GitHub Pages and using
-# a Gemfile as specified at https://github.com/github/pages-gem#conventional
 
-# Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
+
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.idea/
+*.iml
+
+
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+.pnpm-store/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.turbo/
+
+
+
+
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 
-# Additional Ruby/bundler ignore for when you run: bundle install
+# Jekyll dependencies
 /vendor
 
-# Specific ignore for GitHub Pages
-# GitHub Pages will always use its own deployed version of pages-gem
-# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
-# counterproductive to check this file into the repository.
-# Details at https://github.com/github/pages-gem/issues/768
+# GitHub Pages manages its own pages-gem version
 Gemfile.lock
+
+
+
+*.log
+logs/
+
+tmp/
+temp/
+
+*.tmp
+*.temp
+
+
+coverage/
+.nyc_output/
+.pytest_cache/
+htmlcov/
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+secrets/
+private/
+credentials/
+config.local.*
+
+
+.local/
+.localhost/
+*.local
+
+# Live Server / local tooling
+.vite/
+vite.config.local.*
+
+*.bak
+*.backup
+*.old
+*.orig
